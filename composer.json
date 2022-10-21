@@ -1,0 +1,26 @@
+{
+    "name": "u/bot",
+    "description": "engine",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ti",
+            "email": "none@none.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Public\\" : "public/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "scripts": {
+        "test" : "php vendor/bin/phpunit --colors=always"
+    }
+}
+
